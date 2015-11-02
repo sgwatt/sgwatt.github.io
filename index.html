@@ -1,14 +1,71 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
+<!--
+    Identity by HTML5 UP
+    html5up.net | @n33co
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 
 <head>
-    <title>SGWatt GitHub page</title>
-
+    <title>Steve Watt portfolio</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!--[if lte IE 8]><script src="assets/js/html5shiv.js"></script><![endif]-->
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+    <!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
 </head>
 
-<body>
-    <h1>Hello World</h1>
-    <p>I'm hosted with GitHub Pages.</p>
+<body class="is-loading">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+        <!-- Main -->
+        <section id="main">
+            <header>
+                <span class="avatar"><img src="images/logo144x144.png" alt="" /></span>
+                <h1>Steve Watt</h1>
+                <h2>Portfolio</h2>
+                <p><em>Under Construction</em></p>
+            </header>
+            <footer>
+                <ul class="icons">
+                    <li><a target="_blank" href= "https://dl.dropboxusercontent.com/u/3295068/SW_home/index.html" class="fa-home">Home</a></li>
+                    <li><a target="_blank" href="mailto:tombolofish@gmail.com" class="fa-envelope-o">email</a></li>
+                    <li><a target="_blank" href="http://sgwatt.github.io/" class="fa-github">Github</a></li>
+                    <li><a target="_blank" href="https://www.linkedin.com/in/sgwatt" class="fa-linkedin-square">LinkedIn</a></li>
+                    <li><a target="_blank" href="https://dl.dropboxusercontent.com/u/3295068/swatt_p2_resume/index.html" class="icon alt fa-file-text-o">Resume</a></li>
+                </ul>
+            </footer>
+        </section>
+
+        <!-- Footer -->
+        <footer id="footer">
+            <ul class="copyright">
+                <li>&copy; Steve Watt</li>
+                <li>Orginal design: <a href="http://html5up.net">by HTML5 UP</a></li>
+                <li>Modified by Steve Watt</li>
+            </ul>
+        </footer>
+
+    </div>
+
+    <!-- Scripts -->
+    <!--[if lte IE 8]><script src="assets/js/respond.min.js"></script><![endif]-->
+    <script>
+        if ('addEventListener' in window) {
+            window.addEventListener('load', function() {
+                document.body.className = document.body.className.replace(/\bis-loading\b/, '');
+            });
+            document.body.className += (navigator.userAgent.match(/(MSIE|rv:11\.0)/) ? ' is-ie' : '');
+        }
+
+    </script>
+
 </body>
 
 </html>
